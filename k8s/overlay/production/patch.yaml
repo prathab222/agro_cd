@@ -1,0 +1,13 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: node-app
+spec:
+  replicas: 3
+  template:
+    spec:
+      containers:
+      - name: node-app
+        env:
+        - name: NODE_ENV
+          value: "production"

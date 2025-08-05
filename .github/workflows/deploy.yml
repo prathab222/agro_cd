@@ -46,7 +46,7 @@ jobs:
     - name: Push updated manifests
       uses: ad-m/github-push-action@master
       with:
-        github_token: ${{ secrets.GIT_TOKEN }}
+        github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: main
         force: false
         tags: false

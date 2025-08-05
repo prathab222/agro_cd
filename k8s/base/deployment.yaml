@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: node-app
-        image: your-docker-username/node-app:latest
+        image: prathaban1994/my_app:latest
         ports:
         - containerPort: 3000
         env:
